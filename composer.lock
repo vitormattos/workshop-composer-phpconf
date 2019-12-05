@@ -4,8 +4,9 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eed168cd99f4c1cccb3e5adf1c53dfeb",
-    "packages": [
+    "content-hash": "3a91c1018d8e3e092d53f97bf38fffcd",
+    "packages": [],
+    "packages-dev": [
         {
             "name": "phpoption/phpoption",
             "version": "1.6.0",
@@ -176,7 +177,6 @@
             "time": "2019-11-30T20:25:09+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
