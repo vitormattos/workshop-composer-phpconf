@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPConf;
+namespace  PHPConf;
 
 class Soma
 {

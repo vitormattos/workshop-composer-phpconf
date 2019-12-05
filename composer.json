@@ -1,5 +1,5 @@
 {
-    "name": "Workshop Composer PHPConference",
+    "name": "vitormattos/workshop-composer",
     "description": "Workshop de composer ministrado no PHPConference",
     "authors": [
         {
@@ -15,11 +15,15 @@
     },
     "require-dev": {
         "vlucas/phpdotenv": "^4.0",
-        "phpunit/phpunit": "^8.4"
+        "phpunit/phpunit": "^8.4",
+        "squizlabs/php_codesniffer": "^3.5"
     },
     "autoload": {
         "psr-4": {
             "PHPConf\\": "src"
         }
+    },
+    "scripts": {
+        "test": "phpunit tests"
     }
 }
