@@ -14,3 +14,5 @@ RUN curl https://getcomposer.org/composer.phar --output /usr/bin/composer
 RUN chmod +x /usr/bin/composer
 
 WORKDIR /php7
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
+ENTRYPOINT [ "sh", "/usr/local/bin/entrypoint.sh" ]
