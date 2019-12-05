@@ -1,5 +1,16 @@
 {
+    "name": "Workshop Composer PHPConference",
+    "description": "Workshop de composer ministrado no PHPConference",
+    "authors": [
+        {
+            "name": "Vitor Mattos",
+            "email": "vitor@php.rio"
+        }
+    ],
+    "license": "MIT",
     "require": {
+        "php": ">=7.3",
+        "ext-zip": "*",
         "cocur/slugify": "^3.2"
     },
     "require-dev": {
