@@ -1,0 +1,7 @@
+version: "3.0"
+services:
+  php7:
+    build: .docker/php7
+    volumes:
+      - .:/php7
+      - ~/.composer:/root/.composer
