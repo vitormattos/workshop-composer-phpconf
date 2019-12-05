@@ -7,6 +7,8 @@
             "email": "vitor@php.rio"
         }
     ],
+    "type": "library",
+    "keywords": ["phpconferencebr", "phpconf", "composer"],
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
