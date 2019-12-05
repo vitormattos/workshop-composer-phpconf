@@ -8,6 +8,7 @@
         }
     ],
     "license": "MIT",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.3",
         "ext-zip": "*",
@@ -24,6 +25,12 @@
         }
     },
     "scripts": {
-        "test": "phpunit tests"
+        "phpunit": "phpunit tests",
+        "phpcs": "phpcs --standard=PSR2 -n src",
+        "phpcbf": "phpcbf --standard=PSR2 -n src",
+        "test": [
+            "@phpunit",
+            "@phpcs"
+        ]
     }
 }
